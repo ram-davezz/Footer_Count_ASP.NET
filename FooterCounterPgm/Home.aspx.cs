@@ -11,7 +11,11 @@ namespace WebsitePgm
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            LabelCounter.Text = "You are visitor no." + Application["Counter"].ToString();
+
+            HWSettings Settings = (HWSettings)Application["Settings"];
+            LabelCounter.Text = Settings.DefaultPageText4;
         }
+
     }
+    
 }

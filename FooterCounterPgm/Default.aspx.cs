@@ -17,6 +17,7 @@ namespace WebsitePgm
                 LabelDefaultPageText1.Text = Settings.DefaultPageText1;
                 LabelHeader.Text = Settings.DefaultPageText2;
                 LabelFooter.Text = Settings.DefaultPageText3;
+
             }
             catch(Exception)
             {

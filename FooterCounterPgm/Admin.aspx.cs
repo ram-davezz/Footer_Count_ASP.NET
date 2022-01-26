@@ -19,7 +19,7 @@ namespace WebsitePgm
             {
                 HWSettings Settings = (HWSettings)Application["Settings"];
                 txtDefault.Text = Settings.DefaultPageText1;
-                LabelCounterADmin.Text = "You are visitor no." + Application["Counter"].ToString();
+                LabelCounterADmin.Text = "You are visitor no." +Application["Counter"].ToString();
             }
         }
 
@@ -29,7 +29,6 @@ namespace WebsitePgm
             Settings.DefaultPageText1 = txtDefault.Text;
             Settings.DefaultPageText2 = txtHeader.Text;
             Settings.DefaultPageText3 = txtFooter.Text;
-
             WebPgmManager.SaveSettings(Server.MapPath("~/App_Data/Settings.xml"), Settings);
             Application["Settings"] = Settings;
         }

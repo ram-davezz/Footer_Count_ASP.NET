@@ -13,6 +13,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+   background-color:#86ebaa;
 }
 
 .topnav {
@@ -83,7 +84,7 @@ body {
   <a href="Home.aspx" class="active">Home</a>
          <br />
          <div style="font-size:23px;margin-right:50px;"class="text-center">
-         <asp:Label ID="LabelHeader" runat="server" Text="Label" ForeColor="#99FF99"></asp:Label>
+         <asp:Label ID="LabelHeader" runat="server" Text="Label" ForeColor="#f6f420"></asp:Label>
          </div>
 </div>
     <form id="form1" runat="server">
@@ -96,9 +97,9 @@ body {
 
             </div>
     </form>
-  <footer class="text-center text-lg-start bg-light text-muted footer"style="margin-top:180px;font-size:26px;">
+  <footer class="text-center text-lg-start bg-light footer"style="margin-top:180px;font-size:26px;">
       <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-             <asp:Label ID="LabelFooter" runat="server"  Text=""></asp:Label>
+             <asp:Label ID="LabelFooter" runat="server" Text="" ForeColor="#aef9f7"></asp:Label>
     
   </div>
         </footer>  

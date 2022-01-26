@@ -13,6 +13,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color:#c5c3c6;
 }
 
 .topnav {
@@ -105,9 +106,9 @@ ASP.NET's successor is ASP.NET Core. It is a re-implementation of ASP.NET as a m
         </div>
        
     </form>
-    <footer class="text-center text-lg-start bg-light text-muted"style="margin-top:90px;">
-      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-          <asp:Label ID="LabelCounter" runat="server" Text=""></asp:Label>
+    <footer class="text-center text-lg-start bg-light"style="margin-top:90px;">
+      <div class="text-center p-4" style="background-color: #65f999;">
+          You are visitor no. <asp:Label ID="LabelCounter" runat="server" Text=""></asp:Label>
     
   </div>
         </footer>

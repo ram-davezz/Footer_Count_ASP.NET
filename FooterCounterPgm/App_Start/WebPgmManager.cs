@@ -7,6 +7,8 @@ public class HWSettings
     public string DefaultPageText1 {get; set;}
     public string DefaultPageText2 { get; set; }
     public string DefaultPageText3 { get; set; }
+    public string DefaultPageText4 { get; set; }
+
 
 }
 

@@ -13,6 +13,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+   background-color:#86ebaa;
 }
 
 .topnav {
@@ -125,7 +126,7 @@ body {
 </div>
     </form>
    <footer class="text-center text-lg-start bg-light text-muted"style="margin-top:140px;">
-      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      <div class="text-center p-4" style="background-color: #f1faf4;">
           <asp:Label ID="LabelCounterADmin" runat="server" Text="Label"></asp:Label>
   </div>
         </footer>
